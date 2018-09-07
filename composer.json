@@ -1,0 +1,19 @@
+{
+  "name": "heyshop/hey-token",
+  "description": "用于在app登录嘿店颁发token",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lizhonglin",
+      "email": "lizhonglin_melody@yeah.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "HeyShop\\Token\\": "src/"
+    }
+  }
+}
